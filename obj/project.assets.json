@@ -5358,11 +5358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pradeep\\PerfectAPI\\PerfectAPI.csproj",
+      "projectUniqueName": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\PerfectAPI.csproj",
       "projectName": "PerfectAPI",
-      "projectPath": "C:\\Pradeep\\PerfectAPI\\PerfectAPI.csproj",
+      "projectPath": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\PerfectAPI.csproj",
       "packagesPath": "C:\\Users\\prade\\.nuget\\packages\\",
-      "outputPath": "C:\\Pradeep\\PerfectAPI\\obj\\",
+      "outputPath": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

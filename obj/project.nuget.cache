@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l2DJRvaS+DNZZfeG/X5UZI65q3pudZFmUFnfO9bL82yKCZE8k+/7zXtTn2yEuxmbHMXuUQ2x84XsSEOftBAlOQ==",
+  "dgSpecHash": "MYr3+7hhIwjC+c7lmYww/xu5plICunlK7vfmDqpGQj4c8T3N+X+x1xqJr+PdV4KIcJy6NKoLIo3vPWYDqRUIuA==",
   "success": true,
-  "projectFilePath": "C:\\Pradeep\\PerfectAPI\\PerfectAPI.csproj",
+  "projectFilePath": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\PerfectAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prade\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\prade\\.nuget\\packages\\destructurama.attributed\\4.0.0\\destructurama.attributed.4.0.0.nupkg.sha512",
