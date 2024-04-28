@@ -1,0 +1,8 @@
+2024-04-11T13:59:47.4897836+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-11T13:59:47.5265040+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-04-11T13:59:47.5285418+05:30  [INF] Content root path: "C:\Pradeep\PerfectAPI" (cc26f24e)
+2024-04-11T13:59:53.2826912+05:30 40000040-0000-ff00-b63f-84710c7967bb [INF] CheckStatus API is Successfull with 0 (f9e6bbf6)
+2024-04-11T14:04:13.1098154+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-04-11T14:04:13.1147520+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-04-11T14:04:13.1165187+05:30  [INF] Content root path: "C:\Pradeep\PerfectAPI" (cc26f24e)
+2024-04-11T14:05:20.2437842+05:30 40000020-0004-f900-b63f-84710c7967bb [INF] CheckStatus API is Successfull with 55 (81952fef)
