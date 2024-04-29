@@ -7,16 +7,6 @@
 
     public class EnvironmentSettings : IEnvironmentSettings
     {
-        public string Environment
-        {
-            get
-            {
-                return Environment;
-            }
-            set
-            {
-                Environment = "DEV";
-            }
-        }
+        public string Environment { get ; set; }
     }
 }

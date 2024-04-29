@@ -6,36 +6,30 @@ namespace PerfectAPI.BusinessLayer.Factories
 {
     public class EmployeeFactory : IEmployeeFactory
     {
-        private readonly IAddNewEmployee _addNewEmployee;
-        private readonly IUpdateEmployeeDesignation _updateEmployeeDesignation;
-        private readonly IGetAllEmployeeDetails _getAllEmployeeDetails;
-        private readonly IGetEmployeeDetails _getEmployeeDetails;
+        private readonly IPerfectAPIClientFactory _perfectAPIClientFactory;
 
-        public EmployeeFactory(IAddNewEmployee addNewEmployee, IUpdateEmployeeDesignation updateEmployeeDesignation, IGetAllEmployeeDetails getAllEmployeeDetails, IGetEmployeeDetails getEmployeeDetails)
+        public EmployeeFactory(IPerfectAPIClientFactory perfectAPIClientFactory)
         {
-             _addNewEmployee = addNewEmployee;
-            _getAllEmployeeDetails = getAllEmployeeDetails;
-            _getEmployeeDetails = getEmployeeDetails;
-            _updateEmployeeDesignation = updateEmployeeDesignation;
+                _perfectAPIClientFactory = perfectAPIClientFactory;
         }
         public async Task<bool> AddNewEmployee(NewEmployeeDetailsRequestModel model)
         {
-           return await  _addNewEmployee.Execute(model);
+           return await _perfectAPIClientFactory.AddNewEmployeeClient.Execute(model);
         }
 
         public async Task<List<EmployeeDetails>> GetAllEmployeeDetails()
         {
-            return await _getAllEmployeeDetails.Execute();
+            return await _perfectAPIClientFactory.GetAllEmployeeDetailsClient.Execute();
         }
 
         public async Task<EmployeeDetails?> GetEmployeeDetails(EmployeeDetailsRequestModel model)
         {
-            return await _getEmployeeDetails.Execute(model);
+            return await _perfectAPIClientFactory.GetEmployeeDetailsClient.Execute(model);
         }
 
         public Task<bool> UpdateDesignation(UpdateEmployeDesignationRequestModel model)
         {
-            return _updateEmployeeDesignation.Execute(model);   
+            return _perfectAPIClientFactory.UpdateEmployeeDesignationClient.Execute(model);   
         }
     }
 }

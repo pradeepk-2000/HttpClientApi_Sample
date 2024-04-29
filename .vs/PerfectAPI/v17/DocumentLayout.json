@@ -1,7 +1,140 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\baseclient\\baseclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\baseclient\\baseclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\customauthenticationmiddleware\\basicauthenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\customauthenticationmiddleware\\basicauthenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\businesslayer\\factories\\employeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:businesslayer\\factories\\employeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\getallemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\getallemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\perfectapiclientfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\perfectapiclientfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\getemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\getemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\updateemployeedesignationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\updateemployeedesignationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\addnewemployeeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\addnewemployeeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\webtaskmasterexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\webtaskmasterexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\customauthenticationmiddleware\\ienvironmentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\customauthenticationmiddleware\\ienvironmentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\batchlistclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\batchlistclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\httpresponsemessageextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\httpresponsemessageextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\customauthenticationmiddleware\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\customauthenticationmiddleware\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\helpers\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:helpers\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientrepositories\\logonclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientrepositories\\logonclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\businesslayer\\models\\batchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:businesslayer\\models\\batchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\businesslayer\\models\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:businesslayer\\models\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\businesslayer\\models\\logonclientrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:businesslayer\\models\\logonclientrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\businesslayer\\interfaces\\iemployeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:businesslayer\\interfaces\\iemployeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\iperfectapiclientfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\iperfectapiclientfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\igetbatchlistclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\igetbatchlistclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\ilogonclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\ilogonclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\iupdatedesignationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\iupdatedesignationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\igetemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\igetemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\iaddnewemployeeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\iaddnewemployeeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|c:\\pradeep\\github\\perfectapi\\httpclientapi_sample\\clients\\clientinterfaces\\igetallemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890E4645-3D18-421D-AE1B-D23C32E3212D}|PerfectAPI.csproj|solutionrelative:clients\\clientinterfaces\\igetallemployeedetailsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\Debug\\net8.0\\PerfectAPI.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\PerfectAPI.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -21,6 +154,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
             },
             {
@@ -28,8 +165,401 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\BaseClient\\BaseClient.cs",
+              "RelativeDocumentMoniker": "Clients\\BaseClient\\BaseClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\BaseClient\\BaseClient.cs",
+              "RelativeToolTip": "Clients\\BaseClient\\BaseClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:07:52.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddNewEmployeeClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\AddNewEmployeeClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\AddNewEmployeeClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\AddNewEmployeeClient.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\AddNewEmployeeClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:46:49.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateEmployeeDesignationClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\UpdateEmployeeDesignationClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\UpdateEmployeeDesignationClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\UpdateEmployeeDesignationClient.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\UpdateEmployeeDesignationClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:47:36.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\Constants.cs",
+              "RelativeDocumentMoniker": "Helpers\\Constants.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\Constants.cs",
+              "RelativeToolTip": "Helpers\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:03:30.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllEmployeeDetailsClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\GetAllEmployeeDetailsClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\GetAllEmployeeDetailsClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\GetAllEmployeeDetailsClient.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\GetAllEmployeeDetailsClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:47:05.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicAuthenticationMiddleware.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\CustomAuthenticationMiddleware\\BasicAuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "Helpers\\CustomAuthenticationMiddleware\\BasicAuthenticationMiddleware.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\CustomAuthenticationMiddleware\\BasicAuthenticationMiddleware.cs",
+              "RelativeToolTip": "Helpers\\CustomAuthenticationMiddleware\\BasicAuthenticationMiddleware.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:27:03.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetEmployeeDetailsClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\GetEmployeeDetailsClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\GetEmployeeDetailsClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\GetEmployeeDetailsClient.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\GetEmployeeDetailsClient.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:47:15.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PerfectAPICLientFactory.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\PerfectAPICLientFactory.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\PerfectAPICLientFactory.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\PerfectAPICLientFactory.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\PerfectAPICLientFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:56:16.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-29T08:31:21.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeFactory.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Factories\\EmployeeFactory.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Factories\\EmployeeFactory.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Factories\\EmployeeFactory.cs",
+              "RelativeToolTip": "BusinessLayer\\Factories\\EmployeeFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:48:22.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAIAwwC0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:47:38.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HttpResponseMessageExtensions.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\HttpResponseMessageExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\HttpResponseMessageExtensions.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\HttpResponseMessageExtensions.cs",
+              "RelativeToolTip": "Helpers\\HttpResponseMessageExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:56:15.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BatchListClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\BatchListClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\BatchListClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\BatchListClient.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\BatchListClient.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:53:16.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAIAwwGIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:28:27.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\CustomAuthenticationMiddleware\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Helpers\\CustomAuthenticationMiddleware\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\CustomAuthenticationMiddleware\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "Helpers\\CustomAuthenticationMiddleware\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:31:46.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebTaskMasterException.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\WebTaskMasterException.cs",
+              "RelativeDocumentMoniker": "Helpers\\WebTaskMasterException.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\WebTaskMasterException.cs",
+              "RelativeToolTip": "Helpers\\WebTaskMasterException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:55:54.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEnvironmentSettings.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\CustomAuthenticationMiddleware\\IEnvironmentSettings.cs",
+              "RelativeDocumentMoniker": "Helpers\\CustomAuthenticationMiddleware\\IEnvironmentSettings.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\CustomAuthenticationMiddleware\\IEnvironmentSettings.cs",
+              "RelativeToolTip": "Helpers\\CustomAuthenticationMiddleware\\IEnvironmentSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:24:11.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Helpers\\ApiResponse.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\ApiResponse.cs",
+              "RelativeToolTip": "Helpers\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:56:18.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "Helpers\\ServiceResponse.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Helpers\\ServiceResponse.cs",
+              "RelativeToolTip": "Helpers\\ServiceResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:56:12.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LogonClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\LogonClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientRepositories\\LogonClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientRepositories\\LogonClient.cs",
+              "RelativeToolTip": "Clients\\ClientRepositories\\LogonClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:47:53.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BatchList.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Models\\BatchList.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Models\\BatchList.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Models\\BatchList.cs",
+              "RelativeToolTip": "BusinessLayer\\Models\\BatchList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:54:46.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeDetails.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Models\\EmployeeDetails.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Models\\EmployeeDetails.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Models\\EmployeeDetails.cs",
+              "RelativeToolTip": "BusinessLayer\\Models\\EmployeeDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:54:42.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LogonClientRequestModel.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Models\\LogonClientRequestModel.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Models\\LogonClientRequestModel.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Models\\LogonClientRequestModel.cs",
+              "RelativeToolTip": "BusinessLayer\\Models\\LogonClientRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:54:40.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPerfectAPIClientFactory.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IPerfectAPIClientFactory.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\IPerfectAPIClientFactory.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IPerfectAPIClientFactory.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\IPerfectAPIClientFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:54:14.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEmployeeFactory.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Interfaces\\IEmployeeFactory.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IEmployeeFactory.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\BusinessLayer\\Interfaces\\IEmployeeFactory.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IEmployeeFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:59:36.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PerfectAPI.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\Debug\\net8.0\\PerfectAPI.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\PerfectAPI.AssemblyInfo.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\Debug\\net8.0\\PerfectAPI.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\PerfectAPI.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:38:05.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:38:08.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ILogonClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\ILogonClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\ILogonClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\ILogonClient.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\ILogonClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:46:23.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IGetBatchListClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IGetBatchListClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\IGetBatchListClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IGetBatchListClient.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\IGetBatchListClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:46:31.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUpdateDesignationClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IUpdateDesignationClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\IUpdateDesignationClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IUpdateDesignationClient.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\IUpdateDesignationClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:45:55.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IGetEmployeeDetailsClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IGetEmployeeDetailsClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\IGetEmployeeDetailsClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IGetEmployeeDetailsClient.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\IGetEmployeeDetailsClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:45:32.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IGetAllEmployeeDetailsClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IGetAllEmployeeDetailsClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\IGetAllEmployeeDetailsClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IGetAllEmployeeDetailsClient.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\IGetAllEmployeeDetailsClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:45:19.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAddNewEmployeeClient.cs",
+              "DocumentMoniker": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IAddNewEmployeeClient.cs",
+              "RelativeDocumentMoniker": "Clients\\ClientInterfaces\\IAddNewEmployeeClient.cs",
+              "ToolTip": "C:\\Pradeep\\GitHub\\PerfectAPI\\HttpClientApi_Sample\\Clients\\ClientInterfaces\\IAddNewEmployeeClient.cs",
+              "RelativeToolTip": "Clients\\ClientInterfaces\\IAddNewEmployeeClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:45:00.093Z"
             }
           ]
         }

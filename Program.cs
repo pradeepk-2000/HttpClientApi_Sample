@@ -31,42 +31,35 @@ namespace PerfectAPI
             //                          policy.WithOrigins("https://localhost:7125/");
             //                      });
             //});
-            builder.Services.AddControllers();
-            builder.Services.AddCors();
-            builder.Services.AddHttpClient();
-            builder.Services.AddLogging();
-            builder.Services.AddAutoMapper(typeof(Program));
-
-            // Register Polly policies
-           // builder.Services.AddPolicyRegistry();
-            //builder.Services.AddScoped(typeof(IAsyncPolicy), typeof(AsyncPolicy));
-            //registry =>
-            //{
-            //// Register your Polly policies here
-            //registry.Add("MyRetryPolicy", Policy.Handle.Exception().RetryAsync(3));
-            //});
-
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddMemoryCache();
+            builder.Services.AddControllers();
+            builder.Services.AddWebTaskMasterAPI();
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            var _logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).Enrich.FromLogContext().CreateLogger();
+            builder.Services.AddLogging().AddSerilog(_logger);
+
+            builder.Services.AddCors();
+           // builder.Services.AddHttpClient();
+
+          //  builder.Services.AddLogging();
+           // builder.Services.AddAutoMapper(typeof(Program));
+
+
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddScoped<IInformationFactory, InformationFactory>();
-            builder.Services.AddTransient<IEnvironmentSettings, EnvironmentSettings>();
-
-            builder.Services.AddTransient<IEmployeeFactory, EmployeeFactory>();
-            builder.Services.AddTransient<IAddNewEmployee, AddNewEmployee>();
-            builder.Services.AddTransient<IGetAllEmployeeDetails, GetAllEmployeeDetails>();
-             builder.Services.AddTransient<IGetEmployeeDetails, GetEmployeeDetails>();
-            builder.Services.AddTransient<IUpdateEmployeeDesignation, UpdateEmployeeDesignation>();
-
+            #region not in use
             //Log.Logger = new LoggerConfiguration()
             //.WriteTo.File("Logs/log.txt")
             //.CreateLogger();
+            #endregion
 
             var app = builder.Build();
 
-            var loggerFactory = app.Services.GetService<ILoggerFactory>();
-            var logFilePath = builder.Configuration["Logging:LogFilePath"].ToString();
-            loggerFactory.AddFile(logFilePath);
+            //var loggerFactory = app.Services.GetService<ILoggerFactory>();
+            //var logFilePath = builder.Configuration["Logging:LogFilePath"].ToString();
+            //loggerFactory.AddFile(logFilePath);
 
 
             // Configure the HTTP request pipeline....
@@ -75,10 +68,13 @@ namespace PerfectAPI
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+                app.UseDeveloperExceptionPage();    
             }
-          //  app.UsePathBase(new Microsoft.AspNetCore.Http.PathString(Constants.CONTEXT_URI));
+            app.UseSerilogRequestLogging();
+            app.UsePathBase(new Microsoft.AspNetCore.Http.PathString("/perfect/api"));
 
-           // app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
+            app.UseRouting();
             app.UseAuthorization();
 
             app.UseCors(x => x
@@ -87,20 +83,21 @@ namespace PerfectAPI
                 .SetIsOriginAllowed(origin => true));
             //app.UseCors(MyAllowSpecificOrigins);
 
-            //app.UseOpenApi(settings =>
-            //    settings.PostProcess = (document, request) =>
-            //    {
-            //        document.Info.Title = "Perfect API";
-            //        document.Info.Contact = new NSwag.OpenApiContact
-            //        {
-            //            Email = Constants.SWAGGER_CONTACT_EMAIL,
-            //            Name = Constants.SWAGGER_CONTACT_NAME,
-            //        };
-            //        document.Info.Version = Constants.SWAGGER_VERSION;
-            //        document.BasePath = Constants.CONTEXT_URI;
-            //    });
+            app.UseOpenApi(settings =>
+                settings.PostProcess = (document, request) =>
+                {
+                    document.Info.Title = "Perfect API";
+                    document.Info.Contact = new NSwag.OpenApiContact
+                    {
+                        Email = Constants.SWAGGER_CONTACT_EMAIL,
+                        Name = Constants.SWAGGER_CONTACT_NAME,
+                    };
+                    document.Info.Version = Constants.SWAGGER_VERSION;
+                    document.BasePath = Constants.CONTEXT_URI;
+                });
 
-            //app.UseMiddleware<BasicAuthenticationMiddleware>();
+           app.UseMiddleware<BasicAuthenticationMiddleware>();
+            app.UseSwaggerUi(x => x.DefaultModelExpandDepth = -1);
             app.MapControllers();
 
             app.Run();

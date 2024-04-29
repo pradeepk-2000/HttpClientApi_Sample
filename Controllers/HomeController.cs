@@ -140,7 +140,7 @@ namespace PerfectAPI.Controllers
             catch (Exception ex)
             {
                // _logger.LogError(ex, "Internal Server error" + ex.StackTrace);
-                return StatusCode(StatusCodes.Status500InternalServerError, model);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
 
         }
@@ -192,7 +192,7 @@ namespace PerfectAPI.Controllers
             catch (Exception ex)
             {
                // _logger.LogError(ex, "Internal Server error" + ex.StackTrace);
-                return StatusCode(StatusCodes.Status500InternalServerError, model);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
 
         }

@@ -49,7 +49,7 @@ namespace PerfectAPI.Clients.BaseClient
             switch (env)
             {
                 case "DEV":
-                    baseAddress = Environment.GetEnvironmentVariable("DEVURL");
+                    baseAddress =  Constants.CONTEXT_URI;
                     break;
                 case "IT":
                     baseAddress = Environment.GetEnvironmentVariable("ITURL");
@@ -82,8 +82,7 @@ namespace PerfectAPI.Clients.BaseClient
             cancellationToken.ThrowIfCancellationRequested();
             Logger.LogDebug("Executing [{RequestUri}]", RequestUri());
 
-            //var uri = this.GetBaseAddress(this.EnvironmentSettings.Environment);
-            var uri = Constants.BaseAddress;
+            var uri = this.GetBaseAddress(this.EnvironmentSettings.Environment);
 
             this.SetHttpClient(this.HttpClientFactory.CreateClient("perfectApi"), uri);
             // Make the call
@@ -142,8 +141,8 @@ namespace PerfectAPI.Clients.BaseClient
             cancellationToken.ThrowIfCancellationRequested();
             Logger.LogDebug("Executing [{ResponseUri}]", RequestUri(request));
 
-            //var uri = this.GetBaseAddress(this.EnvironmentSettings.Environment);
-            var uri = Constants.BaseAddress;
+            var uri = this.GetBaseAddress(this.EnvironmentSettings.Environment);
+
             this.SetHttpClient(this.HttpClientFactory.CreateClient("perfectApi"), uri);
             // Make the call
             CallTimer.Start();

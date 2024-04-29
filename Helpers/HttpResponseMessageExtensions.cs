@@ -20,5 +20,16 @@ namespace PerfectAPI.Helpers
             return;
         }
 
-}
+        public static async Task<string> InnerMessage(this HttpResponseMessage httpResponseMessage)
+        {
+            try
+            {
+                return $"HttpResponseMessage returned {httpResponseMessage.Content.ReadAsStringAsync().Result}";
+            }
+            catch (Exception ex)
+            {
+                return "COuld not parse InnerMessage: " + ex.ToString();
+            }
+        }
+    }
 }
