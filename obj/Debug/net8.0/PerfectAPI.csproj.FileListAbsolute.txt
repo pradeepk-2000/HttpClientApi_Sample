@@ -14,12 +14,10 @@ C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\PerfectAPI.ru
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\PerfectAPI.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\PerfectAPI.pdb
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\AutoMapper.dll
-C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Castle.Core.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Destructurama.Attributed.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Moq.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Namotion.Reflection.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\NJsonSchema.dll
@@ -52,9 +50,6 @@ C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Swashbuckle.A
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\xunit.abstractions.dll
-C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\xunit.assert.dll
-C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\xunit.core.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\YamlDotNet.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
@@ -75,3 +70,5 @@ C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\obj\Debug\net8.0\refint\Perfec
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\obj\Debug\net8.0\PerfectAPI.pdb
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\obj\Debug\net8.0\PerfectAPI.genruntimeconfig.cache
 C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\obj\Debug\net8.0\ref\PerfectAPI.dll
+C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Pradeep\GitHub\PerfectAPI\HttpClientApi_Sample\bin\Debug\net8.0\xunit.core.dll

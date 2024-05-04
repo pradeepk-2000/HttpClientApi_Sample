@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerfectAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe1f562bcdbbe87094ceedb6d9397db4b329da7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ba88aaf18cc2cd0cc6a7ff5c4c073237e55dcbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerfectAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerfectAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
