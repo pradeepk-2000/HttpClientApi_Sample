@@ -1,0 +1,113 @@
+ADMIN / TEMPLATE TABLES
+======================
+
+Templates
+---------
+Id (PK)
+Name
+Jurisdiction
+IsActive
+CreatedAt
+CreatedBy
+
+
+Sections
+--------
+Id (PK)
+TemplateId (FK → Templates.Id)
+Title
+OrderIndex
+
+
+SubSections
+-----------
+Id (PK)
+SectionId (FK → Sections.Id)
+Title
+OrderIndex
+
+
+Questions
+---------
+Id (PK)
+SubSectionId (FK → SubSections.Id)
+QuestionText
+IsRequired
+OrderIndex
+
+
+QuestionOptions
+---------------
+Id (PK)
+QuestionId (FK → Questions.Id)
+OptionText
+OrderIndex
+RedirectSectionId (FK → Sections.Id, NULL)
+RedirectSubSectionId (FK → SubSections.Id, NULL)
+
+
+OptionFields
+------------
+Id (PK)
+QuestionOptionId (FK → QuestionOptions.Id)
+FieldLabel
+FieldType            -- checkbox / text
+IsRequired
+OrderIndex
+
+
+
+USER TABLES
+===========
+
+Users
+-----
+Id (PK)
+Name
+Email
+
+
+UserResponses
+-------------
+Id (PK)
+UserId (FK → Users.Id)
+TemplateId (FK → Templates.Id)
+StartedAt
+SubmittedAt
+Status               -- Draft / Submitted
+
+
+ResponseAnswers
+---------------
+Id (PK)
+UserResponseId (FK → UserResponses.Id)
+QuestionId (FK → Questions.Id)
+SelectedOptionId (FK → QuestionOptions.Id)
+
+UNIQUE (UserResponseId, QuestionId)
+
+
+ResponseOptionFieldValues
+-------------------------
+Id (PK)
+ResponseAnswerId (FK → ResponseAnswers.Id)
+OptionFieldId (FK → OptionFields.Id)
+Value
+
+
+
+RELATIONSHIP
+============
+
+Templates
+  → Sections
+    → SubSections
+      → Questions
+        → QuestionOptions
+          → OptionFields
+
+
+Users
+  → UserResponses
+    → ResponseAnswers
+      → ResponseOptionFieldValues
