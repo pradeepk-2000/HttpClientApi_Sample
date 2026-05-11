@@ -1,0 +1,136 @@
+Templates
+---------
+Id (PK)
+Name
+Jurisdiction
+CreatedAt
+CreatedBy
+
+
+        1
+        │
+        │
+        ▼
+TemplateVersions
+-----------------
+Id (PK)
+TemplateId (FK → Templates.Id)
+VersionNumber
+IsPublished
+IsActive
+CreatedAt
+CreatedBy
+
+
+        1
+        │
+        │
+        ▼
+Sections
+--------
+Id (PK)
+TemplateVersionId (FK → TemplateVersions.Id)
+Title
+OrderIndex
+
+
+        1
+        │
+        │
+        ▼
+SubSections
+-----------
+Id (PK)
+SectionId (FK → Sections.Id)
+Title
+OrderIndex
+
+
+        1
+        │
+        │
+        ▼
+Questions
+---------
+Id (PK)
+SubSectionId (FK → SubSections.Id)
+QuestionText
+QuestionType
+IsRequired
+OrderIndex
+
+
+        1
+        │
+        │
+        ▼
+Answers
+-------
+Id (PK)
+QuestionId (FK → Questions.Id)
+AnswerText
+Value
+OrderIndex
+RedirectSectionId (FK → Sections.Id, NULL)
+RedirectSubSectionId (FK → SubSections.Id, NULL)
+
+
+        1
+        │
+        │
+        ▼
+AnswerOptions
+-------------
+Id (PK)
+AnswerId (FK → Answers.Id)
+OptionText
+Value
+OrderIndex
+
+
+
+
+Users :
+-----
+Id (PK)
+Name
+Email
+
+
+        1
+        │
+        │
+        ▼
+UserResponses
+-------------
+Id (PK)
+UserId (FK → Users.Id)
+TemplateVersionId (FK → TemplateVersions.Id)
+StartedAt
+SubmittedAt
+Status
+
+
+        1
+        │
+        │
+        ▼
+ResponseAnswers
+---------------
+Id (PK)
+UserResponseId (FK → UserResponses.Id)
+QuestionId (FK → Questions.Id)
+AnswerId (FK → Answers.Id)
+AnswerValue
+
+
+        1
+        │
+        │
+        ▼
+ResponseAnswerOptions
+---------------------
+Id (PK)
+ResponseAnswerId (FK → ResponseAnswers.Id)
+AnswerOptionId (FK → AnswerOptions.Id)
+OptionValue
