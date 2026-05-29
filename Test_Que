@@ -1,0 +1,216 @@
+export interface Question {
+  id: number;
+  name: string;
+  description: string;
+  type: string;
+}
+
+export interface SubSection {
+  id: number;
+  name: string;
+}
+
+export interface Section {
+  id: number;
+  name: string;
+  subSections: SubSection[];
+}
+
+import { Component, OnInit } from '@angular/core';
+    this.selectedSubSection = null;
+
+    this.questions = [];
+
+    this.selectedQuestion = null;
+
+    this.updateUrl();
+  }
+
+  onSubSectionChange(): void {
+
+    if (!this.selectedSubSection) {
+      return;
+    }
+
+    this.loadQuestions(this.selectedSubSection.id);
+
+    this.updateUrl();
+  }
+
+  loadQuestions(
+    subSectionId: number,
+    questionId?: number
+  ): void {
+
+    // MOCK API RESPONSE
+    this.questions = [
+      {
+        id: 101,
+        name: 'First Name',
+        description: 'Enter first name',
+        type: 'Text'
+      },
+      {
+        id: 102,
+        name: 'Last Name',
+        description: 'Enter last name',
+        type: 'Text'
+      },
+      {
+        id: 103,
+        name: 'Gender',
+        description: 'Select gender',
+        type: 'Dropdown'
+      }
+    ];
+
+    if (questionId) {
+
+      this.selectedQuestion =
+        this.questions.find(x => x.id === questionId) || null;
+    }
+  }
+
+  selectQuestion(question: Question): void {
+
+    this.selectedQuestion = question;
+
+    this.updateUrl();
+  }
+
+  updateUrl(): void {
+
+    this.router.navigate(
+      [],
+      {
+        relativeTo: this.route,
+
+        queryParams: {
+          sectionId: this.selectedSection?.id,
+          subSectionId: this.selectedSubSection?.id,
+          questionId: this.selectedQuestion?.id
+        },
+
+        queryParamsHandling: 'merge'
+      }
+    );
+  }
+}
+<div class="questions-page">
+
+  <div class="top-filters">
+
+    <p-dropdown
+      [options]="sections"
+      [(ngModel)]="selectedSection"
+      optionLabel="name"
+      placeholder="Select Section"
+      (onChange)="onSectionChange()">
+    </p-dropdown>
+
+    <p-dropdown
+      [options]="selectedSection?.subSections || []"
+      [(ngModel)]="selectedSubSection"
+      optionLabel="name"
+      placeholder="Select Sub Section"
+      (onChange)="onSubSectionChange()">
+    </p-dropdown>
+
+  </div>
+
+  <div class="content-layout">
+
+    <div class="questions-list">
+
+      <div
+        class="question-card"
+        *ngFor="let question of questions"
+        [class.active]="selectedQuestion?.id === question.id"
+        (click)="selectQuestion(question)">
+
+        {{ question.name }}
+
+      </div>
+
+    </div>
+
+    <div class="question-details">
+
+      <ng-container *ngIf="selectedQuestion">
+
+        <h2>{{ selectedQuestion.name }}</h2>
+
+        <p>
+          <strong>Description:</strong>
+          {{ selectedQuestion.description }}
+        </p>
+
+        <p>
+          <strong>Type:</strong>
+          {{ selectedQuestion.type }}
+        </p>
+
+      </ng-container>
+
+      <ng-container *ngIf="!selectedQuestion">
+
+        <div class="empty-state">
+          Select a question
+        </div>
+
+      </ng-container>
+
+    </div>
+
+  </div>
+
+</div>
+
+.questions-page {
+  padding: 20px;
+}
+
+.top-filters {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.content-layout {
+  display: flex;
+  gap: 20px;
+  height: 500px;
+}
+
+.questions-list {
+  width: 300px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.question-card {
+  padding: 14px;
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+}
+
+.question-card:hover {
+  background: #f5f5f5;
+}
+
+.question-card.active {
+  background: #e0e7ff;
+  font-weight: 600;
+}
+
+.question-details {
+  flex: 1;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.empty-state {
+  color: gray;
+}
