@@ -1,0 +1,96 @@
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Section, SubSection, Question } from './questions-screen.models';
+
+@Component({
+  selector: 'app-questions-screen',
+  templateUrl: './questions-screen.component.html',
+  styleUrls: ['./questions-screen.component.scss']
+})
+export class QuestionsScreenComponent implements OnInit {
+
+  templateId!: number;
+
+  sections: Section[] = [];
+
+  selectedSection: Section | null = null;
+
+  selectedSubSection: SubSection | null = null;
+
+  questions: Question[] = [];
+
+  selectedQuestion: Question | null = null;
+
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) {}
+
+  ngOnInit(): void {
+
+    this.route.paramMap.subscribe(params => {
+
+      this.templateId = Number(params.get('id'));
+
+      this.loadSections();
+    });
+  }
+
+  }
+loadSections(): void {
+
+        id: 2,
+        name: 'Education',
+        subSections: [
+          {
+            id: 21,
+            name: 'College'
+          }
+        ]
+      }
+    ];
+
+    this.applyQueryParams();
+  }
+
+  applyQueryParams(): void {
+
+    const sectionId = Number(
+      this.route.snapshot.queryParamMap.get('sectionId')
+    );
+
+    const subSectionId = Number(
+      this.route.snapshot.queryParamMap.get('subSectionId')
+    );
+
+    const questionId = Number(
+      this.route.snapshot.queryParamMap.get('questionId')
+    );
+
+    if (!sectionId || !subSectionId) {
+      return;
+    }
+
+    this.selectedSection =
+      this.sections.find(x => x.id === sectionId) || null;
+
+    this.selectedSubSection =
+      this.selectedSection?.subSections.find(
+        x => x.id === subSectionId
+      ) || null;
+
+    if (this.selectedSubSection) {
+      this.loadQuestions(this.selectedSubSection.id, questionId);
+    }
+  }
+
+  onSectionChange(): void {
+
+    this.selectedSubSection = null;
+
+    this.questions = [];
+
+    this.selectedQuestion = null;
+
+    this.updateUrl();
+  }
